@@ -15,7 +15,7 @@
 <style lang="scss" scoped>
 ::v-deep .el-button {
   span {
-    background-color: #89898989 !important;
+    // background-color: #89898989 !important;
   }
 }
 </style>
