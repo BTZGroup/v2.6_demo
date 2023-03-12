@@ -12,6 +12,10 @@ import './theme/theme_i18/index.css';
 // import './theme/dark_1/index.css';
 import './theme/element-variables.scss';
 
+
+
+require("./conf/hot.js")
+
 Vue.use(ElementUI);
 
 Vue.config.productionTip = false
