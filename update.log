@@ -3,6 +3,19 @@
 axios封装
 js-base64
 js-cookie
-路由、tab
+路由、tab、cookie、换肤【已完成】
+
+
+菜单
+router钩子
+vuex
+mock
+service
+vue全局变量
+emmit
+$on
+socket.io
+
+Mock
 
 tips:echarts、highcharts、js-md5、moment

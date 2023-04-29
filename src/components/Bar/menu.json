@@ -1,0 +1,365 @@
+{
+	"id": "0",
+	"fatherId": null,
+	"data": null,
+	"children": [
+		{
+			"id": "01",
+			"fatherId": "0",
+			"data": {
+				"id": "01",
+				"fatherId": null,
+				"navName": "数据看板",
+				"routerUrl": "/dashboard",
+				"roleId": "103"
+			},
+			"children": [],
+			"leaf": true
+		},
+		{
+			"id": "02",
+			"fatherId": "0",
+			"data": {
+				"id": "02",
+				"fatherId": null,
+				"navName": "功能组件",
+				"routerUrl": null,
+				"roleId": "103"
+			},
+			"children": [
+				{
+					"id": "0201",
+					"fatherId": "02",
+					"data": {
+						"id": "0201",
+						"fatherId": "02",
+						"navName": "表格",
+						"routerUrl": "/vue2_table",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0202",
+					"fatherId": "02",
+					"data": {
+						"id": "0202",
+						"fatherId": "02",
+						"navName": "树",
+						"routerUrl": "/vue2_tree",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0203",
+					"fatherId": "02",
+					"data": {
+						"id": "0203",
+						"fatherId": "02",
+						"navName": "按钮、图标",
+						"routerUrl": "/vue2_btn",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0204",
+					"fatherId": "02",
+					"data": {
+						"id": "0204",
+						"fatherId": "02",
+						"navName": "组件预览",
+						"routerUrl": "/allView",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0205",
+					"fatherId": "02",
+					"data": {
+						"id": "0205",
+						"fatherId": "02",
+						"navName": "文件上传",
+						"routerUrl": "/upload",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				}
+			],
+			"leaf": false
+		},
+		{
+			"id": "03",
+			"fatherId": "0",
+			"data": {
+				"id": "03",
+				"fatherId": null,
+				"navName": "组件测试",
+				"routerUrl": null,
+				"roleId": "103"
+			},
+			"children": [
+				{
+					"id": "0301",
+					"fatherId": "03",
+					"data": {
+						"id": "0301",
+						"fatherId": "02",
+						"navName": "父子组件通信",
+						"routerUrl": "/vue2_props",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0302",
+					"fatherId": "03",
+					"data": {
+						"id": "0302",
+						"fatherId": "03",
+						"navName": "vuex",
+						"routerUrl": "/vuex",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0303",
+					"fatherId": "03",
+					"data": {
+						"id": "0303",
+						"fatherId": "03",
+						"navName": "refs",
+						"routerUrl": "/vue2_btn",
+						"roleId": "103"
+					},
+					"children": [
+						{
+							"id": "030301",
+							"fatherId": "0303",
+							"data": {
+								"id": "030301",
+								"fatherId": "0303",
+								"navName": "四级菜单测试",
+								"routerUrl": "/vue2_btn",
+								"roleId": "103"
+							},
+							"children": [],
+							"leaf": true
+						}
+					],
+					"leaf": true
+				},
+				{
+					"id": "0304",
+					"fatherId": "03",
+					"data": {
+						"id": "0304",
+						"fatherId": "03",
+						"navName": "bus",
+						"routerUrl": "/$bus",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0305",
+					"fatherId": "03",
+					"data": {
+						"id": "0305",
+						"fatherId": "03",
+						"navName": "socket",
+						"routerUrl": "/socket",
+						"roleId": "103"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0306",
+					"fatherId": "03",
+					"data": {
+						"id": "0306",
+						"fatherId": "03",
+						"navName": "es6",
+						"routerUrl": "/es6",
+						"roleId": "103"
+					},
+					"children": [
+						{
+							"id": "030601",
+							"fatherId": "0306",
+							"data": {
+								"id": "030601",
+								"fatherId": "0306",
+								"navName": "解构、default",
+								"routerUrl": "/es6/6_base",
+								"roleId": "103"
+							},
+							"children": [],
+							"leaf": true
+						}
+					],
+					"leaf": true
+				}
+			],
+			"leaf": false
+		},
+		{
+			"id": "06",
+			"fatherId": "0",
+			"data": {
+				"id": "06",
+				"fatherId": null,
+				"navName": "业务组件",
+				"routerUrl": null,
+				"roleId": "102"
+			},
+			"children": [
+				{
+					"id": "0601",
+					"fatherId": "06",
+					"data": {
+						"id": "0601",
+						"fatherId": "06",
+						"navName": "组织管理",
+						"routerUrl": "/org",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0602",
+					"fatherId": "06",
+					"data": {
+						"id": "0602",
+						"fatherId": "06",
+						"navName": "用户管理",
+						"routerUrl": "/user",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0603",
+					"fatherId": "06",
+					"data": {
+						"id": "0603",
+						"fatherId": "06",
+						"navName": "日志管理",
+						"routerUrl": "/log",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0604",
+					"fatherId": "06",
+					"data": {
+						"id": "0604",
+						"fatherId": "06",
+						"navName": "飞行管理",
+						"routerUrl": "/fly",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0605",
+					"fatherId": "06",
+					"data": {
+						"id": "0605",
+						"fatherId": "06",
+						"navName": "购物车",
+						"routerUrl": "/shop",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				}
+			],
+			"leaf": false
+		},
+		{
+			"id": "07",
+			"fatherId": "0",
+			"data": {
+				"id": "07",
+				"fatherId": null,
+				"navName": "插件组件",
+				"routerUrl": null,
+				"roleId": "102"
+			},
+			"children": [
+				{
+					"id": "0701",
+					"fatherId": "07",
+					"data": {
+						"id": "0701",
+						"fatherId": "07",
+						"navName": "echarts",
+						"routerUrl": "/echarts",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0702",
+					"fatherId": "07",
+					"data": {
+						"id": "0702",
+						"fatherId": "07",
+						"navName": "highcharts",
+						"routerUrl": "/highcharts",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0703",
+					"fatherId": "07",
+					"data": {
+						"id": "0703",
+						"fatherId": "07",
+						"navName": "jsPlumb",
+						"routerUrl": "/plumb",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				},
+				{
+					"id": "0704",
+					"fatherId": "07",
+					"data": {
+						"id": "0704",
+						"fatherId": "07",
+						"navName": "ptzControl",
+						"routerUrl": "/ptzControl",
+						"roleId": "102"
+					},
+					"children": [],
+					"leaf": true
+				}
+			],
+			"leaf": false
+		}
+	],
+	"leaf": false
+}

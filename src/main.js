@@ -4,29 +4,34 @@ import router from './router'
 import store from './store'
 
 import ElementUI from 'element-ui';
-// import 'element-theme-dark';
-// import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/index.css';
 
-// import './theme/theme_i18/index.css';
-import './theme/dark/index.css';
-// import './theme/dark_1/index.css';
-import './theme/element-variables.scss';
+// 引入mock
+// require('../Mock')
 
+import scroll from 'vue-seamless-scroll'
 
-
-// import echarts from './utils/echartsUI';
-// Vue.prototype.$echarts = echarts
-
+import Bus from '../src/conf/bus';
+// import GLOBAL_CUS from "../public/custom/global.config.json"
+// var GLOBAL_CUS = require("../public/custom/global.config.json")
+Vue.prototype.$bus = Bus 
+Vue.prototype.GLOBAL_CUS = GLOBAL_CUS 
 
 
 require("./conf/hot.js")
 
 Vue.use(ElementUI);
+Vue.use(scroll)
 
 Vue.config.productionTip = false
 
-new Vue({
+var vm = new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+  mounted() {
+    console.log("这是node环境变量=========", process.env)
+  }
 }).$mount('#app')
+
+export default vm

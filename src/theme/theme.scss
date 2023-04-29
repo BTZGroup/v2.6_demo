@@ -1,0 +1,15 @@
+$main_chalk_1: #ffffff;
+$main_chalk_2: #222933;
+$main_chalk_3: #333333;
+
+$themes: (
+	default:(main_bg:$main_chalk_1, //主体背景色
+		filterGrayscale:0,
+	),
+	dark:(main_bg:$main_chalk_2,
+		filterGrayscale:0,
+	),
+	dark_1:(main_bg:$main_chalk_3,
+		filterGrayscale:0,
+	)
+);
